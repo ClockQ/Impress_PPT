@@ -2,10 +2,173 @@
 
 <html lang="en">
 <head>
-</head>
-<body >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>vue introduce</title>
+    <link href="css/impress-demo.css" rel="stylesheet" />
 
-adsadgvalkfdjalkjf
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<style>
+.con {
+    font-size: 38px!important;
+    color: #333!important;
+    max-height: 600px;
+    overflow-y: auto;
+}
+.yellow {
+  color:#ffd04b;
+}
+</style>
+<body class="impress-not-supported" style="background:#fff!important;font-size:14px!important;">
+<div id="impress" data-autoplay="1000">
+
+    <div id="a" class="step" data-x="-2500" data-y="-1500">
+        <div class="con">
+            <h2 style="text-indent:80px;margin-bottom:15px;font-size:48px;color:#ffd04b;">项目介绍</h2>
+            <p>一：了解各个文件含义用途</p>
+            <p>二：全局路由，模块化路由</p>
+            <p>三：掌握vuex，全局store,模块化store</p>
+            <p>四：掌握axios应用</p>
+            <p>五：掌握elementUI组件库的用法</p>
+            <p>六：换肤功能</p>
+            <p>七：注意事项</p>
+        </div>
+    </div>
+
+    <div id="b" class="step" data-x="-1200" data-y="-1500">
+        <div class="con">
+            <h2 style="text-align: center;margin-bottom: 12px;color:#ffd04b;">一：文件含义及用途</h2>
+            <p style="text-align: center;"><img src="./img/1.png" /></p>
+            <p style="text-align: center;"><img src="./img/2.png" /></p>
+        </div>
+    </div>
+
+    <div class="step" data-x="0" data-y="-1500">
+        <div class="con">
+            <h2 style="color:#ffd04b;text-align:left;">二：全局路由，模块化路由</h2>
+            <p><img src="./img/3.png"></p>
+            <p><img src="./img/4.png"></p>
+        </div>
+    </div>
+
+    <div class="step" data-x="1200" data-y="-1500">
+        <div class="con">
+        <h2 style="color:#ffd04b;text-align:center;margin-bottom:10px;">三：Vuex介绍</h2>
+        <div>
+          Vuex是一个专为Vue.js应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
+          <p style="color:#ffd04b;">解决的问题：</p>
+          <p>多个视图依赖于同一状态。</p>
+          <p>来自不同视图的行为需要变更同一状态。</p>
+        </div>
+        </div>
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <div class="con">
+            <h2 style="color:#ffd04b;">应用</h2>
+            <p>每一个Vuex应用的核心就是store,"store"就是一个容器。<span style="font-size:20px;color:#ffd04b;">注意：不能直接改变 store 中的状态。改变 store 中的状态的唯一途径就是显式地提交 (commit)</span></p>
+            <p>1. state</p>
+            <p>2. getter</p>
+            <p>3. mutation (同步)</p>
+            <p>4. action (异步)</p>
+            <p>5. module</p>
+        </div>
+    </div>
+
+
+    <div id="its" class="step" data-x="350" data-y="4600" data-rotate="90" data-scale="5">
+        <div class="con">
+            <h2 style="color:#ffd04b;">全局store</h2>
+            <div>
+                <p><img src="./img/5.png"></p>
+            </div>
+            <h2 style="color:#ffd04b;">局部store</h2>
+            <div>
+                <p><img src="./img/6.png"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="big" class="step" data-x="5000" data-y="2800" data-rotate="180" data-scale="6">
+        <div class="con" style="width: 700px;">
+            <h2 style="color:#ffd04b;margin-bottom:10px;">四：axios的应用</h2>
+            <div>
+               <p><img src="./img/7.png"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tinys" class="step" data-x="2825" data-y="2325" data-z="-1500" data-rotate="270" data-scale="1">
+        <div>
+            <p style="color:#ffd04b;">五：掌握elementUi组件库的用法（样式修改scoped问题）</p>
+            <p style="color:#ffd04b;">六：换肤功能</p>
+        </div>
+    </div>
+
+    <div id="ings" class="step" data-x="4200" data-y="-2600" data-z="0" data-rotate="270" data-scale="6">
+        <div>
+            <h2 style="color:#ffd04b; font-size:36px;">七：注意事项</h2>
+            <p style="color:#ffd04b; font-size:36px;">1. 页面中的变量，方法，写好注释</p>
+            <p style="color:#ffd04b; font-size:36px;">2. 骨架要清楚，写明白</p>
+            <p style="color:#ffd04b; font-size:36px;">3. 做完一个功能去ie看下，是否兼容（上传页面前去ie跑一遍）</p>
+        </div>
+    </div>
+
+    <!-- <div id="sou" class="step" data-x="9500" data-y="5000" data-rotate="20" data-scale="4">
+        <div>
+            <h2 style="color:#ffd04b; font-size:36px;">补充细节</h2>
+            <div style="width:830px;height:600px; overflow-y:auto;">
+                <p>1. class的使用</p>
+                <p><img src="./img/24.png" /></p>
+                <p>2. img的使用</p>
+                <p><img src="./img/25.png" /></p>
+                <p>3. 模板字符串的使用</p>
+                <p><img src="./img/26.png" /></p>
+                <p><img src="./img/27.png" /></p>
+                <p>4. 箭头函数</p>
+                <p><img src="./img/28.png" /></p>
+                <p><img src="./img/29.png" /></p>
+                <p>5. async await</p>
+                <p>6. scss 样式写法</p>
+                <p><img src="./img/30.png" /></p>
+                <p><img src="./img/31.png" /></p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div id="one-more-thing" class="step" data-x="6500" data-y="6500" data-scale="3">
+        <div>
+            <h2 style="color:#ffd04b; font-size:36px;">vue.js安装</h2>
+            <p><img src="./img/32.png" /></p>
+        </div>
+    </div> -->
+
+    <!-- <div id="3d" class="step" data-x="6200" data-y="4800" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <div style="text-align: center;">
+            <p><img src="./img/logo.png" width=""/></p>
+            <p style="color:#ffd04b; font-size:48px;">开启Vue项目之旅！</p>
+        </div>
+    </div> -->
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+    </div>
+
+</div>
+
+<div id="impress-toolbar"></div>
+
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
 
 </body>
 </html>

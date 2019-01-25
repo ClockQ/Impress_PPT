@@ -1,0 +1,35 @@
+body {
+	background:#fff!important;
+	font-size:14px!important;
+}
+
+H1 {
+	color:#ffd04b;
+	font-size:48px;
+	margin-bottom:15px;
+}
+
+a {
+  color: #399AB2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FE4165;
+}
+
+ul li {
+	font-size: 30px;
+	text-indent: 60px;
+}
+
+.con {
+	font-size: 38px!important;
+	color: #333!important;
+	max-height: 600px;
+	overflow-y: auto;
+}
+
+.yellow {
+  color:#ffd04b;
+}
